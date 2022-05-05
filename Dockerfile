@@ -12,5 +12,5 @@ RUN chown -R userapi:userapi ./
 USER userapi
 
 EXPOSE 8000
-CMD gunicorn --b0.0.0.0:$PORT wsgi:app
+CMD gunicorn --bind 0.0.0.0:$PORT wsgi:app
 
