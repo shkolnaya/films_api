@@ -5,6 +5,7 @@ from unittest.mock import patch
 
 from src import app
 
+
 @dataclass
 class FakeFilm:
     title = 'Fake Film'
@@ -13,6 +14,7 @@ class FakeFilm:
     description = 'Fake description'
     length = 100
     rating = 8.0
+
 
 class TestFilms:
     uuid = []
