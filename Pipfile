@@ -11,6 +11,7 @@ swagger-ui = "*"
 marshmallow-sqlalchemy = "*"
 pyjwt = "*"
 coverage = "*"
+gunicorn = "*"
 
 [dev-packages]
 pytest = "*"
